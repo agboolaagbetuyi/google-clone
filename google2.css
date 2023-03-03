@@ -52,47 +52,42 @@ body {
 
 .container{
   height: 50px; display: flex; 
-  margin-left: auto; 
-  margin-right: auto; 
-  border: 2px; 
-  border-color: blueviolet;
+    border: 2px; 
   border: 1px;
+  width: 800px;
   border-style: solid;
-   border-color: gray;
+  justify-content: space-between;
+   margin-left: auto;
+   margin-right: auto;
   margin-bottom: 10px; border-radius: 30px;
-display: block;
 background-color: white;}
+
+
+.container1 {
+   display: flex; 
+  align-items: center; 
+  gap: 30px;
+  justify-content: space-between;
+
+}
+.speakera {
+  width: 30px;
+  height: 30px;
+}
+.television {
+width: 30px;
+margin-left: 10px;
+margin-right: 20px;
+}
+
   
-  
+.child_diva{ margin-left: auto; margin-right: auto;}
 
 .child1{ width: 50px;  
   height: 50px; display: flex ;
    
 }
-  .child2 { width: 50px;  height: 50px; 
-    margin-right: 15px;
-    
-  }
-  .child3{width: 50px;  height: 50px; display: flex;}
-
-    .search_image{ width: 20px;  
-      height: 20px; cursor: 
-      pointer; 
-      margin-top: 5px; 
-      margin-left: 10px;
-    margin-right: 380px;}
-
-    .child4{ width:50px ; height: 50px;  }
   
-    
-    .speaker {width: 20px;
-      height: 25px;
-        margin-top: 10px;
-         cursor: pointer;
-         margin-left: -50px;}
-    
-  
-
 a{ color: rgb(150, 147, 147);}
 
 .language_container  {
@@ -101,8 +96,11 @@ a{ color: rgb(150, 147, 147);}
   justify-content: center;
   align-items: center;
   }
+
+
+  .child_diva{ align-items: center;}
   
-  .child_diva1{ height:60%;
+  .child_diva1{ height:70%;
      width: 100%;
      display: flex; 
      align-items: center;
@@ -140,13 +138,20 @@ a{ color: rgb(150, 147, 147);}
   border-bottom: 1px solid #8b9095;
   padding-bottom: 8px;
 }
+.foot {
+  display: flex; 
+  justify-content: center;
+}
 footer {
-  text-align: center;  display: flex;height: 200px;
+    display: flex;
+    height: 200px;
+    text-align: center;
 }
 footer a {
   text-decoration: none;
   margin-right: 20px;
   color: #8b9095;
+  text-align: center;
 }
 @media (max-width: 834px) {
   .text_area {
